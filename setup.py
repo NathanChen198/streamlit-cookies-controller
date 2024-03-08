@@ -10,7 +10,7 @@ long_description = (this_directory / "README.md").read_text(encoding='UTF-8')
 
 setup(
     name='streamlit-cookies-controller',
-    version='0.0.1',
+    version='0.0.2',
     author='Nathan Chen',
     author_email='nathan.chen.198@gmail.com',
     description='Streamlit cookies controller',

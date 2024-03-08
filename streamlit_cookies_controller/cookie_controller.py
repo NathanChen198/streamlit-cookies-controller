@@ -65,6 +65,8 @@ class CookieController:
         ### Returns
             The value of the cookie with the given name
         """
+        if name not in self.__cookies:
+            return None
         return self.__cookies[name]
     
 

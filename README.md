@@ -57,6 +57,8 @@ streamlit run example.py
 ## Change Log
 ### Version 0.0.1
 - Initial release
+### Version 0.0.2
+- return None when there is no cookie with the given name instead of throw error
 
 
 [pypi_badge]: https://img.shields.io/pypi/v/streamlit-cookies-controller.svg
