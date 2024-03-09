@@ -30,6 +30,7 @@ pip install streamlit-cookies-controller
 ## Quickstart
 Create a new file example.py
 ``` python
+import streamlit as st
 from streamlit_cookies_controller import CookieController
 
 st.set_page_config('Cookie QuickStart', '🍪', layout='wide')
@@ -38,15 +39,19 @@ controller = CookieController()
 
 # Set a cookie
 controller.set('cookie_name', 'testing')
+st.write(st.session_state)
 
 # Get all cookies
 cookies = controller.getAll()
+st.write(cookies)
 
 # Get a cookie
 cookie = controller.get('cookie_name')
+st.write(cookie)
 
 # Remove a cookie
 controller.remove('cookie_name')
+st.write(st.session_state)
 ```
 Run the streamlit app
 ``` terminal
@@ -59,6 +64,8 @@ streamlit run example.py
 - Initial release
 ### Version 0.0.2
 - return None when there is no cookie with the given name instead of throw error
+### Version 0.0.3
+Remove `Test1` in frontend due to it is flikkering on streamlit v1.32.0
 
 
 [pypi_badge]: https://img.shields.io/pypi/v/streamlit-cookies-controller.svg

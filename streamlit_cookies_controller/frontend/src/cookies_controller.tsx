@@ -88,7 +88,7 @@ class CookieController extends StreamlitComponentBase<State>{
       Streamlit.setComponentReady();
     }
 
-    return (<div>Test1</div>)
+    return (<div />)
   }
 }
 
