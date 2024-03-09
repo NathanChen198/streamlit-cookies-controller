@@ -10,7 +10,7 @@
 Control client browser cookie for the site.
 
 ## What is Streamlit Cookie Controller?
-`streamlit-cookie-controller` let you
+`streamlit-cookies-controller` let you
 
 - get cookie(s)
 - set cookie
