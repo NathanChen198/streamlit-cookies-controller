@@ -1,5 +1,5 @@
 # Author   : Nathan Chen
-# Date     : 08-Mar-2024
+# Date     : 10-Apr-2024
 
 
 from pathlib import Path
@@ -10,7 +10,7 @@ long_description = (this_directory / "README.md").read_text(encoding='UTF-8')
 
 setup(
     name='streamlit-cookies-controller',
-    version='0.0.3',
+    version='0.0.4',
     author='Nathan Chen',
     author_email='nathan.chen.198@gmail.com',
     description='Streamlit cookies controller',

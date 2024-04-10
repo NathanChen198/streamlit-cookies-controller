@@ -1,6 +1,6 @@
 {
     "name": "cookie_controller",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "private": true,
     "dependencies": {
         "react": "^18.2.0",
