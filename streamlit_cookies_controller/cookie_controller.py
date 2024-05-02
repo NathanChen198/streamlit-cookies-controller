@@ -37,9 +37,9 @@ class CookieController:
         if key not in st.session_state:
             self.__cookies: Dict[str, Any] = _cookie_controller(method='getAll', key=key, default={})
         else:
-            self.__cookies: Dict[str, Any] = st.session_state[key]
+            self.__cookies: Dict[str, Any] = st.session_state[key] or {}
 
-            # Require this as the key tie to the controller is remove from session sate when the controller widget is removed on the subsequence iteration
+            # Require this as the key tie to the controller is removed from session state when the controller widget is removed on the subsequence iteration
             st.session_state[key] = self.__cookies
 
     def refresh(self):
