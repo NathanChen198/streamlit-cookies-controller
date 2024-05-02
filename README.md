@@ -1,4 +1,4 @@
-# Welcome to Streamlit Cookie Controller 🍪
+# Welcome to Streamlit Cookies Controller 🍪
 
 [![PyPI][pypi_badge]][pypi_link]
 [![Download][pypi_download_badge]][pypi_link]
